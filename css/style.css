@@ -1,0 +1,88 @@
+:root{
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --fonte: 'Kumbh Sans', sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+p, span{
+  color: var(--dark-grayish-blue);
+  font-weight: 400;
+}
+
+body{
+  font-family: var(--fonte);
+  font-weight: 400;
+  background: url("../images/bg-pattern-top.svg") left top no-repeat, url("../images/bg-pattern-bottom.svg") right bottom no-repeat, var(--dark-cyan) repeat;
+  background-size: cover;
+}
+
+.container{
+  width: 400px;
+  max-width: 100%;
+  display: block;
+  margin: 100px auto;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.pattern-card{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.content{
+  text-align: center;
+}
+
+.content img{
+  margin: -50px auto 20px auto;
+  border-radius: 50px;
+}
+
+.content h1{
+  font-size: 1.125rem;
+}
+
+.content p{
+  margin-top: 10px;
+}
+
+.numbers{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--dark-grayish-blue);
+}
+
+h2{
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.results p{
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
